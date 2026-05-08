@@ -13,53 +13,70 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score, mean_absolute_error
 
 # ==========================================
-# 1. CẤU HÌNH TRANG & GIAO DIỆN (UI/UX)
+# 1. CẤU HÌNH & GIAO DIỆN (UI/UX)
 # ==========================================
-st.set_page_config(page_title="Moto Price AI", page_icon="🏍️", layout="wide")
+st.set_page_config(page_title="Tìm e Tuấn - Định Giá Xe", page_icon="🏍️", layout="wide")
 
-# CSS để làm giao diện đẹp hơn
-st.markdown("""
+# Cấu hình thông tin cá nhân ở đây để dễ thay đổi
+SĐT_ZALO = "0901234567"  # <-- TUẤN THAY SỐ ĐIỆN THOẠI CỦA TUẤN VÀO ĐÂY
+LINK_ZALO = f"https://zalo.me/{SĐT_ZALO}"
+
+st.markdown(f"""
     <style>
-    /* Tổng thể */
-    .main { background-color: #f0f2f6; }
-    
-    /* Tùy chỉnh các khối Metric */
-    [data-testid="stMetricValue"] { font-size: 28px; color: #FF4B4B; font-weight: bold; }
-    
-    /* Tạo khung kiểu Card */
-    .st-emotion-cache-1r6slb0, .st-emotion-cache-12w0qpk {
-        background-color: white;
-        padding: 20px;
-        border-radius: 15px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        margin-bottom: 20px;
-    }
+    .main {{ background-color: #f4f7f9; }}
+    [data-testid="stSidebar"] {{ background-color: #1e1e1e; }}
+    [data-testid="stSidebar"] * {{ color: white !important; }}
 
-    /* Nút bấm nổi bật */
-    div.stButton > button:first-child {
-        background-color: #FF4B4B;
+    .st-emotion-cache-1r6slb0, .st-emotion-cache-12w0qpk {{
+        background-color: white;
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+        margin-bottom: 20px;
+    }}
+
+    /* Nút bấm e Tuấn */
+    div.stButton > button:first-child {{
+        background: linear-gradient(135deg, #FF4B4B 0%, #8B0000 100%);
         color: white;
-        border-radius: 10px;
+        border-radius: 12px;
         border: none;
-        height: 50px;
+        height: 55px;
         font-size: 18px;
         font-weight: bold;
+    }}
+
+    /* Nút Zalo */
+    .zalo-button {{
+        display: inline-block;
+        padding: 15px 25px;
+        background-color: #0068ff;
+        color: white !important;
+        text-decoration: none;
+        border-radius: 10px;
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+        margin-top: 10px;
         transition: 0.3s;
-    }
-    div.stButton > button:hover {
-        background-color: #D32F2F;
-        box-shadow: 0 4px 15px rgba(255, 75, 75, 0.4);
-        transform: scale(1.02);
-    }
-    
-    /* Header đẹp hơn */
-    h1 { color: #1E1E1E; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
-    h3 { color: #424242; }
+    }}
+    .zalo-button:hover {{
+        background-color: #0056d6;
+        box-shadow: 0 4px 15px rgba(0,104,255,0.4);
+    }}
+
+    .price-card {{
+        background: #1e1e1e;
+        padding: 40px;
+        border-radius: 20px;
+        text-align: center;
+        border-left: 10px solid #FF4B4B;
+    }}
     </style>
     """, unsafe_allow_html=True)
 
 # ==========================================
-# 2. HÀM XỬ LÝ LOGIC (GIỮ NGUYÊN Ý NGHĨA)
+# 2. LOGIC XỬ LÝ (LOAD & TRAIN)
 # ==========================================
 @st.cache_data
 def load_and_preprocess():
@@ -81,11 +98,6 @@ def load_and_preprocess():
     df['Phụ tùng'] = df['đã phụ tùng chưa thay'].map({'đã thay': 1, 'chưa thay': 0}).fillna(0)
     df['Tuổi xe'] = current_year - df['Năm sản xuất']
     df = df.dropna(subset=['Giá bán', 'Hãng xe', 'Dòng xe'])
-    
-    # Loại bỏ Outliers
-    Q1, Q3 = df['Giá bán'].quantile(0.25), df['Giá bán'].quantile(0.75)
-    IQR = Q3 - Q1
-    df = df[(df['Giá bán'] >= Q1 - 1.5 * IQR) & (df['Giá bán'] <= Q3 + 1.5 * IQR)]
     return df
 
 @st.cache_resource
@@ -96,66 +108,59 @@ def train_model(df):
         ('num', StandardScaler(), ["Tuổi xe", "Số km đã chạy", "Tình trạng xe", "Phụ tùng"]),
         ('cat', OneHotEncoder(handle_unknown='ignore'), ["Hãng xe", "Dòng xe", "Khu vực bán"])
     ])
-    pipeline = Pipeline([('pre', preprocessor), ('reg', RandomForestRegressor(n_estimators=200, random_state=42))])
+    pipeline = Pipeline([('pre', preprocessor), ('reg', RandomForestRegressor(n_estimators=300, random_state=42))])
     pipeline.fit(X, y)
-    y_pred = pipeline.predict(X)
-    return pipeline, r2_score(y, y_pred), mean_absolute_error(y, y_pred)
+    return pipeline, r2_score(y, pipeline.predict(X))
 
-# --- THỰC THI ---
+# --- CHẠY APP ---
 df = load_and_preprocess()
 current_year = datetime.now().year
 
 if df is not None:
-    model_pl, r2, mae = train_model(df)
+    model_pl, r2 = train_model(df)
     
-    # SIDEBAR - NƠI ĐỂ LOGO CHIẾC MOTO
+    # SIDEBAR - THÔNG TIN LIÊN HỆ
     with st.sidebar:
-        # Hiển thị logo người dùng cung cấp
         if os.path.exists("image_550a7b.png"):
             st.image("image_550a7b.png", use_container_width=True)
-        else:
-            st.title("🏍️ MOTO AI")
         
-        st.markdown("---")
-        st.info("**Hướng dẫn:** Chọn thông số xe ở bảng bên phải để nhận định giá chính xác từ AI.")
-        st.write(f"📊 **Dữ liệu:** {len(df)} xe")
-        st.write(f"🎯 **Độ chính xác:** {r2*100:.1f}%")
+        st.markdown("<h2 style='text-align: center;'>Muốn Bán xe ư?</h2>", unsafe_allow_html=True)
+        st.markdown("<h1 style='text-align: center; color: #FF4B4B;'>HÃY TÌM E TUẤN</h1>", unsafe_allow_html=True)
+        st.divider()
+        
+        st.markdown(f"📞 **Hotline:** {SĐT_ZALO}")
+        st.markdown(f"💬 [Nhắn Zalo ngay]({LINK_ZALO})")
+        st.divider()
+        st.success(f"✅ AI đang hoạt động\nĐộ tin cậy: {r2*100:.1f}%")
 
     # MAIN CONTENT
-    st.title("🏍️ AI Motorbike Intelligence System")
-    st.markdown("Hệ thống phân tích giá xe máy thông minh dựa trên dữ liệu thị trường thực tế.")
-
-    tab1, tab2, tab3 = st.tabs(["🎯 Định giá xe AI", "📊 Insight Thị trường", "📂 Dữ liệu gốc"])
+    st.markdown("# 🏍️ Muốn Bán xe ư? Hãy tìm e Tuấn")
+    
+    tab1, tab2 = st.tabs(["🎯 Định Giá Ngay", "📊 Phân Tích Thị Trường"])
 
     with tab1:
-        # Chia bố cục chính
-        left_col, right_col = st.columns([1, 1], gap="large")
+        col1, col2 = st.columns([1, 1], gap="large")
         
-        with left_col:
-            st.subheader("📝 Thông tin chi tiết")
-            with st.container():
-                # Logic chọn xe thông minh (Hãng -> Dòng)
-                list_hang = sorted(df["Hãng xe"].unique())
-                brand = st.selectbox("Hãng xe", list_hang)
-                
-                list_dong = sorted(df[df["Hãng xe"] == brand]["Dòng xe"].unique())
-                model_bike = st.selectbox("Dòng xe", list_dong)
-                
-                c1, c2 = st.columns(2)
-                year = c1.number_input("Năm sản xuất", 2000, current_year, current_year-2)
-                km = c2.number_input("Số km đã đi", 0, 500000, 10000)
-                
-                cond = st.slider("Tình trạng ngoại hình (1-10)", 1.0, 10.0, 8.5)
-                part = st.radio("Tình trạng máy móc", ["chưa thay", "đã thay"], horizontal=True)
-                area = st.selectbox("Khu vực bán", sorted(df["Khu vực bán"].unique()))
-                
-                predict_btn = st.button("🚀 TÍNH GIÁ DỰ ĐOÁN")
+        with col1:
+            st.markdown("### 📝 Nhập thông tin xe")
+            brand = st.selectbox("Hãng xe", sorted(df["Hãng xe"].unique()))
+            model_bike = st.selectbox("Dòng xe", sorted(df[df["Hãng xe"] == brand]["Dòng xe"].unique()))
+            
+            c1, c2 = st.columns(2)
+            year = c1.number_input("Năm sản xuất", 2000, current_year, current_year-1)
+            km = c2.number_input("Số km đã đi", 0, 500000, 10000)
+            
+            cond = st.slider("Tình trạng thực tế (1-10)", 1.0, 10.0, 8.5)
+            part = st.radio("Máy móc / Phụ tùng", ["chưa thay", "đã thay"], horizontal=True)
+            area = st.selectbox("Khu vực", sorted(df["Khu vực bán"].unique()))
+            
+            btn = st.button("🚀 XEM GIÁ TỪ E TUẤN")
 
-        with right_col:
-            st.subheader("💰 Kết quả phân tích")
-            if predict_btn:
-                with st.spinner("Đang tính toán giá trị tối ưu..."):
-                    time.sleep(0.6)
+        with col2:
+            st.markdown("### 💰 Kết quả định giá")
+            if btn:
+                with st.spinner("E Tuấn đang quét giá thị trường..."):
+                    time.sleep(0.5)
                     input_data = pd.DataFrame([{
                         "Hãng xe": brand, "Dòng xe": model_bike, "Tuổi xe": current_year - year,
                         "Số km đã chạy": km, "Tình trạng xe": cond, 
@@ -163,37 +168,32 @@ if df is not None:
                     }])
                     res = model_pl.predict(input_data)[0]
                     
-                    # Hiển thị giá trong khung Card
                     st.balloons()
                     st.markdown(f"""
-                        <div style="background-color: #1E1E1E; padding: 30px; border-radius: 15px; text-align: center;">
-                            <h2 style="color: white; margin: 0;">GIÁ DỰ BÁO</h2>
-                            <h1 style="color: #FF4B4B; font-size: 45px; margin: 10px 0;">{res:,.0f} VNĐ</h1>
+                        <div class="price-card">
+                            <h3 style="color: white; margin: 0;">GIÁ THỊ TRƯỜNG ĐỀ XUẤT</h3>
+                            <h1 style="color: #FF4B4B; font-size: 50px; margin: 10px 0;">{res:,.0f} VNĐ</h1>
+                            <p style="color: #bbb;">Được tính toán bởi e Tuấn AI</p>
                         </div>
                     """, unsafe_allow_html=True)
                     
-                    # So sánh nhanh
-                    avg_price = df[df['Dòng xe'] == model_bike]['Giá bán'].mean()
-                    st.write("")
-                    st.metric(f"So với trung bình dòng {model_bike}", f"{res:,.0f}đ", f"{res-avg_price:,.0f}đ")
+                    # NÚT ZALO LIÊN HỆ
+                    st.markdown(f"""
+                        <a href="{LINK_ZALO}" target="_blank" class="zalo-button">
+                            📱 NHẮN TUẤN CHỐT XE NGAY QUA ZALO
+                        </a>
+                    """, unsafe_allow_html=True)
+                    
+                    avg = df[df['Dòng xe'] == model_bike]['Giá bán'].mean()
+                    st.metric("Chênh lệch so với giá trung bình", f"{res:,.0f}đ", f"{res-avg:,.0f}đ")
             else:
-                st.write("Vui lòng điền thông tin và nhấn nút 'Tính giá' để xem kết quả.")
-                st.image("https://images.unsplash.com/photo-1558981403-c5f91dbbe480?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80", use_container_width=True)
+                st.info("Nhập thông tin bên trái rồi nhấn nút để e Tuấn tính giá cho nhé!")
+                st.image("https://images.unsplash.com/photo-1558981403-c5f91dbbe480?auto=format&fit=crop&q=80&w=1000")
 
     with tab2:
-        st.subheader("📊 Phân tích xu hướng thị trường")
-        c1, c2 = st.columns(2)
-        with c1:
-            fig1 = px.box(df, x="Hãng xe", y="Giá bán", color="Hãng xe", title="Phân phối giá theo hãng")
-            st.plotly_chart(fig1, use_container_width=True)
-        with c2:
-            fig2 = px.scatter(df, x="Tuổi xe", y="Giá bán", color="Hãng xe", size="Số km đã chạy", 
-                             hover_data=['Dòng xe'], title="Độ mất giá theo tuổi xe")
-            st.plotly_chart(fig2, use_container_width=True)
-
-    with tab3:
-        st.subheader("📂 Bảng dữ liệu chi tiết")
-        st.dataframe(df, use_container_width=True)
+        st.subheader("📈 Phân tích giá trị khấu hao")
+        fig = px.scatter(df, x="Tuổi xe", y="Giá bán", color="Hãng xe", hover_data=["Dòng xe"], trendline="lowess")
+        st.plotly_chart(fig, use_container_width=True)
 
 else:
-    st.error("⚠️ Không tìm thấy file 'motorbike_data.csv'. Vui lòng kiểm tra lại!")
+    st.error("Tuấn ơi, thiếu file 'motorbike_data.csv' rồi!")
