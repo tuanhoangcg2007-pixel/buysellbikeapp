@@ -1,201 +1,201 @@
-STT,Hãng xe,Dòng xe,Năm sản xuất,Số km đã chạy,Tình trạng xe,đã phụ tùng chưa thay,Khu vực bán,Giá bán,Nguồn,Người tìm
-1,Honda,Air Blade,2017,10000,7,chưa thay,Đà Nẵng,19.800.000.00,https://xe.chotot.com/,Vĩ
-2,Honda,Air Blade,2025,2000,"8,5",chưa thay,Hải Phòng,7.500.000.00,https://xe.chotot.com/,Vĩ
-3,Honda,Air Blade,2023,17000,8,chưa thay,Tp Hồ Chí Minh,45.500.000.00,https://xe.chotot.com/,Vĩ
-4,Honda,Air Blade,2023,23000,"7,5",đã thay,Tp Hồ Chí Minh,35.500.000.00,https://xe.chotot.com/,Vĩ
-5,Honda,VISION,2023,8000,6,đã thay,Tp Hồ Chí Minh,29.800.000.00,https://xe.chotot.com/,Vĩ
-6,Honda,VISION,2023,6789,8,đã thay,Tp Hồ Chí Minh,31.800.000.00,https://xe.chotot.com/,Vĩ
-7,Honda,VISION,2023,14769,7,đã thay,Tp Hồ Chí Minh,29.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-go-vap-tp-ho-chi-minh/132197892.htm,Vĩ
-8,Honda,VISION,2023,12345,"7,5",đã thay,Tp Hồ Chí Minh,31.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-tan-binh-tp-ho-chi-minh/132066729.htm,Vĩ
-9,Honda,VISION,2023,10000,8,đã thay,Hà Nội ,28.000.000.00,https://xe.chotot.com/,Vĩ
-10,Honda,VISION,2023,7000,7,đã thay,Hà Nội ,32.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-bac-tu-liem-ha-noi/131071213.htm,Vĩ
-11,Honda,VISION,2023,2500,7,đã thay,Hà Nội ,12.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-nam-tu-liem-ha-noi/97824905.htm,Vĩ
-12,Honda,VISION,2023,2000,"6,5",đã thay,Hà Nội ,12.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-nam-tu-liem-ha-noi/113770626.htm,Vĩ
-13,Honda,VISION,2023,12000,7,đã thay,Hà Nội ,32.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-long-bien-ha-noi/131337564.htm,Vĩ
-14,Honda,VISION,2023,8000,8,đã thay,Hà Nội ,18.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-bac-tu-liem-ha-noi/129323125.htm,Vĩ
-15,Honda,VISION,2023,1,"8,5",chưa thay,Hà Nội ,29.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-hoang-mai-ha-noi/131903173.htm,Vĩ
-16,Honda,VISION,2023,2000,"8,5",đã thay,Hà Nội ,11.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-nam-tu-liem-ha-noi/111934522.htm,Vĩ
-17,Honda,VISION,2023,9000,6,đã thay,Hà Nội ,30.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-dong-da-ha-noi/131658832.htm,Vĩ
-18,Honda,VISION,2023,8624,"6,5",đã thay,Hà Nội ,24.200.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-bac-tu-liem-ha-noi/129948567.htm,Vĩ
-19,Honda,VISION,2023,5000,7,đã thay,Hà Nội ,15.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-nam-tu-liem-ha-noi/116924204.htm,Vĩ
-20,Honda,VISION,2023,11000,"8,5",đã thay,Hà Nội ,26.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-ha-dong-ha-noi/132161550.htm,Vĩ
-21,Honda,Wave Alpha,2022,43000,7,chưa thay,Tp Hồ Chí Minh,16.500.000.00,💥Wave@ đời 2022 BSĐN Chính Chủ máy zin giá tốt💥 - 132205845,Hào
-22,Kymco,Many Fi odo 19k,2013,19000,6,chưa thay,Tp Hồ Chí Minh,7.500.000.00,Kymco Many Fi odo 19k máy zin biển số 70 - 131019071,Hào
-23,Kymco,Candy Hi 50cc,2015,20000,"5,5",chưa thay,Tp Hồ Chí Minh,6.500.000.00,Kymco Candy Hi 50cc - 132067694,Hào
-24,Kymco,Candy Hi 50cc,2022,4545,8,chưa thay,Tp Hồ Chí Minh,15.900.000.00,Kymco Candy Hi 50cc 2022 có hô tro trả góp - 131604994,Hào
-25,Kymco,Kpipe 50cc,2023,10000,7,chưa thay,Tp Hồ Chí Minh,9.800.000.00,Kymco Kpipe 50cc Đklđ 2023 biển số 67 - 131093109,Hào
-26,Kymco,Kpipe 50cc,2019,1257,8,chưa thay,Tp Hồ Chí Minh,10.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-binh-tan-tp-ho-chi-minh/132158925.htm,Hào
-27,Kymco,Kpipe 50 up 100,2026,1000,9,chưa thay,Tp Hồ Chí Minh,8.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-binh-tan-tp-ho-chi-minh/132004926.htm,Hào
-28,Kymco,Kpipe 50cc ,2018,10000,6,chưa thay,Tp Hồ Chí Minh,6.900.000.00,Kymco Kpipe 50cc 2018 Đen - 131781094,Hào
-29,Kymco,Kpipe 50cc ,2025,5000,8,chưa thay,Tp Hồ Chí Minh,11.500.000.00,Kymco K-Pipe 50 Đen 5000 km - 131856497,Hào
-30,Kymco,Kpipe 50cc ,2017,30500,6,đã thay,Tp Hồ Chí Minh,8.500.000.00,Kymco K-Pipe 50cc độ cào cào bs 59sa-07768 - 130693493,Hào
-31,Kymco,Kpipe 50cc ,2022,14000,7,chưa thay,Tp Hồ Chí Minh,9.300.000.00,Xe máy 50cc màu Xanh Z1k - 130392102,Hào
-32,Kymco,Kpipe 50cc ,2022,10000,8,chưa thay,Tp Hồ Chí Minh,11.500.000.00,Kymco K-Pipe 50 2022 Xanh đen(Chính chủ) - 132197029,Hào
-33,Kymco,Kpipe 50cc ,2018,33979,5,chưa thay,Tp Hồ Chí Minh,4.800.000.00,xe 50cc Kymco K-PIPE 2018 - 132168922,Hào
-34,Kymco,Kpipe 50cc ,2024,22000,8,chưa thay,Tp Hồ Chí Minh,13.800.000.00,Bán kymco kpipe 13tr8 - 132125443,Hào
-35,Kymco,Kpipe 50cc ,2019,9877,"7,5",chưa thay,Tp Hồ Chí Minh,7.800.000.00,Kymco K.pipe 50cc dk 2019 Đen - 132091204,Hào
-36,Kymco,Kpipe 50cc ,2019,17000,8,chưa thay,Tp Hồ Chí Minh,11.800.000.00,Tin video - mua bán dễ dàng với Chợ Tốt Video,Hào
-37,Kymco,Kpipe 50cc ,2018,12776,7,chưa thay,Tp Hồ Chí Minh,8.000.000.00,Tin video - mua bán dễ dàng với Chợ Tốt Video,Hào
-38,Kymco,Kpipe 50cc ,2018,100,9,chưa thay,Tp Hồ Chí Minh,9.800.000.00,Kymco K-Pipe 50cc - 131663119,Hào
-39,Kymco,Kpipe 50cc ,2024,6672,8,chưa thay,Tp Hồ Chí Minh,13.000.000.00,Thanh lí xe kymco đã đi 6672km ở GÒ Vấp - 131540654,Hào
-40,Kymco,Kpipe 50cc ,2020,15000,7,chưa thay,Tp Hồ Chí Minh,8.900.000.00,Kymco K Pipe 50cc máy êm bs tphcm - 131002595,Hào
-41,Kymco,Kpipe 50cc ,2018,26000,7,chưa thay,Tp Hồ Chí Minh,8.500.000.00,Kymco Kpipe 50cc Đỏ - 130953208,Hào
-42,Kymco,Like 125cc,2010,50000,5,chưa thay,Tp Hồ Chí Minh,6.500.000.00,Kymco Like 125 Trắng ngọc trai - 132043469,Hào
-43,Kymco,Like 50cc,2017,5483,8,chưa thay,Tp Hồ Chí Minh,12.800.000.00,Kymco Like 50cc 2017 bảo hành 6 tháng có trả góp - 131499275,Hào
-44,Kymco,Like 125cc,2010,36439,5,chưa thay,Tp Hồ Chí Minh,6.900.000.00,Kymco Like màu Nâu bstp - 131057252,Hào
-45,Kymco,Like 125cc,2016,41788,6,chưa thay,Tp Hồ Chí Minh,8.800.000.00,[CỰC PHẨM]📌 Kymco Like Fi 2016📌ĐẸPBỀN+ Đằm+CHẤT- - 127137132,Hào
-46,Honda,VARIO,2023,4000,7,đã thay,Hà Nội,40.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-bac-tu-liem-ha-noi/132099292.htm,Vĩ
-47,Honda,VARIO,2023,11845,8,đã thay,Hà Nội,43.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-dong-da-ha-noi/131404215.htm,Vĩ
-48,Honda,VARIO,2023,14000,"7,5",đã thay,Hà Nội,41.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-cau-giay-ha-noi/131280524.htm,Vĩ
-49,Honda,Lead,2023,22000,6,đã thay,Hà Nội,31.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-ba-dinh-ha-noi/132033435.htm,Vĩ
-50,Honda,Lead,2023,30000,7,đã thay,Hà Nội,33.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-dong-da-ha-noi/132069727.htm,Vĩ
-51,Honda,Lead,2023,6000,8,đã thay,Hà Nội,34.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-hoang-mai-ha-noi/132004425.htm,Vĩ
-52,Honda,Lead,2023,17823,"6,5",đã thay,Hà Nội,37.200.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-dong-da-ha-noi/131431277.htm,Vĩ
-53,Honda,Lead,2023,18829,"6,5",đã thay,Đà Nẵng,32.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/132073427.htm,Vĩ
-54,Honda,Lead,2023,13000,7,đã thay,Cần Thơ,39.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-ninh-kieu-can-tho/132074855.htm,Vĩ
-55,Honda,Lead,2023,4550,8,đã thay,Cần Thơ,81.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-cai-rang-can-tho/132216058.htm#px=SR-stickyad-[PO-1][PL-top],Vĩ
-56,Honda,SH,2023,3000,7,đã thay,Hà Nội,66.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-ba-dinh-ha-noi/130604891.htm,Vĩ
-57,Honda,SH,2023,5000,7,đã thay,Hà Nội,66.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-hoang-mai-ha-noi/131691894.htm,Vĩ
-58,Honda,SH,2023,3000,"7,5",đã thay,Hà Nội,66.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-tay-ho-ha-noi/129228717.htm,Vĩ
-59,Honda,SH,2023,2000,7,đã thay,Hà Nội,112.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-nam-tu-liem-ha-noi/126732772.htm,Vĩ
-60,Honda,SH,2023,2000,8,đã thay,Hà Nội,112.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-thanh-xuan-ha-noi/131880674.htm,Vĩ
-61,Honda,Cub,2023,7000,7,chưa thay,Tp Hồ Chí Minh,8.700.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-binh-tan-tp-ho-chi-minh/131824182.htm,Vĩ
-62,Honda,Cub,2023,4000,"7,5",chưa thay,Tp Hồ Chí Minh,11.500.000.00,https://xe.chotot.com/mua-ban-xe-may-huyen-cu-chi-tp-ho-chi-minh/131484411.htm,Vĩ
-63,Honda,Cub,2023,18000,"7,5",đã thay,Tp Hồ Chí Minh,8.900.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-binh-tan-tp-ho-chi-minh/131763844.htm,Vĩ
-64,Honda,Cub,2023,15000,8,đã thay,Tp Hồ Chí Minh,9.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-8-tp-ho-chi-minh/132145629.htm,Vĩ
-65,Suzuki,EN150A,2013,87000,6,chưa thay,Tp Hồ Chí Minh,22.000.000.00,Suzuki EN150A 2013 Xanh 87000 km - 132210519,Hào
-66,Suzuki,Satria F150,2022,53920,7,đã thay,Tp Hồ Chí Minh,19.000.000.00,Suzuki Satria F150 Đen - 132158667,Hào
-67,Suzuki,Satria F150,2020,49120,7,đã thay,Tp Hồ Chí Minh,25.500.000.00,suzuki satria máy 68 hỗ trợ góp-hỗ trợ nợ xấu - 130211934,Hào
-68,Suzuki,Xipo 120,2016,8754,8,đã thay,Tp Hồ Chí Minh,30.500.000.00,Xipo 120.6 số Xe cục máy bao ngon êm nhẹ lòn - 131306584,Hào
-69,Yamaha,Exciter 150,2017,44000,7,chưa thay,Tp Hồ Chí Minh,18.000.000.00,Yamaha Exciter 150 2017 Trắng Đen Đỏ - 132184667,Hào
-70,Yamaha,Exciter 150,2017,25000,7,chưa thay,Tp Hồ Chí Minh,17.000.000.00,"Chợ Tốt - Website Mua Bán, Rao Vặt Trực Tuyến Hàng Đầu Của Người Việt - Chợ Tốt",Hào
-71,Yamaha,Exciter 150,2015,6978,8,chưa thay,Tp Hồ Chí Minh,13.000.000.00,ex 150 - 131806183,Hào
-72,Yamaha,Exciter 150,2018,44000,7,chưa thay,Tp Hồ Chí Minh,11.900.000.00,Yamaha Exciter Đỏ đen - 131645712,Hào
-73,Yamaha,Exciter 50cc,2024,3673,8,chưa thay,Tp Hồ Chí Minh,6.800.000.00,Yamaha Exciter 50cc Đen Đã sử dụng - 132228018,Hào
-74,Yamaha,EXCITER 155 ABS,2024,4000,8,chưa thay,Hà Nội,42.000.000.00,XE MÁY THỊNH PHÁT - EXCITER 155 ABS TRẮNG ĐỒNG ĐẸP - 130600040,Hào
-75,Yamaha,EXCITER 155 ABS,2024,2000,9,đã thay,Hà Nội,45.500.000.00,XE MÁY THỊNH PHÁT- EXCITER 155 XÁM XANH ABS LƯỚT - 132190137,Hào
-76,Yamaha,EXCITER 155 ABS,2024,3167,8.5,đã thay,Tp Hồ Chí Minh,29.800.000.00,YAMAHA EXCITER 150 2024 BS 77ac-05686 - 132067385,Hào
-77,Yamaha,Grande,2017,29000,9,chưa thay,Tp Hồ Chí Minh,18.500.000.00,https://xe.chotot.com/mua-ban-xe-may-thanh-pho-thu-duc-tp-ho-chi-minh/130951669.htm#px=SR-stickyad-[PO-1][PL-top],Quốc
-78,Yamaha,Grande,2015,6666,9.5,chưa thay,Tp Hồ Chí Minh,19.800.000.00,https://xe.chotot.com/mua-ban-xe-may-thanh-pho-thu-duc-tp-ho-chi-minh/130951669.htm#px=SR-stickyad-[PO-1][PL,Quốc
-79,Yamaha,Grande,2015,6595,8.5,chưa thay,Tp Hồ Chí Minh,20.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-8-tp-ho-chi-minh/131931786.htm,Quốc
-80,Yamaha,Grande,2017,8686,8.5,chưa thay,Tp Hồ Chí Minh,15.500.000.00,https://xe.chotot.com/mua-ban-xe-may-thanh-pho-thu-duc-tp-ho-chi-minh/131979266.htm,Quốc
-81,Yamaha,Grande,2016,25000,9,chưa thay,Tp Hồ Chí Minh,16.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-go-vap-tp-ho-chi-minh/131611392.htm,Quốc
-82,Yamaha,Grande,2016,34211,9,chưa thay,Tp Hồ Chí Minh,14.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-binh-thanh-tp-ho-chi-minh/131238065.htm,Quốc
-83,Yamaha,Grande,2016,15000,8,chưa thay,Tp Hồ Chí Minh,14.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-tan-phu-tp-ho-chi-minh/131511530.htm,Quốc
-84,Yamaha,Grande,2019,18000,9.5,chưa thay,Tp Hồ Chí Minh,27.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-7-tp-ho-chi-minh/131657543.htm,Quốc
-85,Yamaha,Grande,2018,30,9.5,chưa thay,Tp Hồ Chí Minh,15.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-go-vap-tp-ho-chi-minh/132034528.htm,Quốc
-86,Yamaha,Grande,2016,10,9.5,chưa thay,Tp Hồ Chí Minh,17.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-tan-phu-tp-ho-chi-minh/132163829.htm,Quốc
-87,Yamaha,Grande,2017,18000,8,chưa thay,Tp Hồ Chí Minh,18.300.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-tan-phu-tp-ho-chi-minh/131739327.htm,Quốc
-88,Yamaha,Grande,2015,33072,9.5,chưa thay,Tp Hồ Chí Minh,19.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-go-vap-tp-ho-chi-minh/132211336.htm,Quốc
-89,Yamaha,Grande,2015,35000,9.5,chưa thay,Tp Hồ Chí Minh,14.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-go-vap-tp-ho-chi-minh/132211336.htm,Quốc
-90,Yamaha,Grande,2015,22628,7.5,chưa thay,Tp Hồ Chí Minh,13.900.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-go-vap-tp-ho-chi-minh/132172626.htm,Quốc
-91,Honda,Vario,2024,45000,9,chưa thay,Tp Hồ Chí Minh,48.500.000.00,https://xe.chotot.com/mua-ban-xe-may-thanh-pho-thu-duc-tp-ho-chi-minh/132213205.htm#px=SR-stickyad-[PO-1][PL-top],Quốc
-92,Honda,Vario,2022,25000,8,chưa thay,Tp Hồ Chí Minh,43.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-binh-thanh-tp-ho-chi-minh/132013505.htm,Quốc
-93,Honda,Vario,2023,59000,9,chưa thay,Tp Hồ Chí Minh,40.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-binh-tan-tp-ho-chi-minh/132119797.htm,Quốc
-94,Honda,Vario,2023,10,10,chưa thay,Tp Hồ Chí Minh,42.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-tan-phu-tp-ho-chi-minh/132224773.htm#px=SR-similarad-[PO-2][PL-bottom],Quốc
-95,Honda,Vario,2023,10,10,chưa thay,Tp Hồ Chí Minh,38.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-tan-phu-tp-ho-chi-minh/132075403.htm,Quốc
-96,Honda,Vario,2020,20000,8.5,chưa thay,Tp Hồ Chí Minh,39.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-tan-phu-tp-ho-chi-minh/132075403.htm,Quốc
-97,Honda,Vario,2022,16000,9,chưa thay,Tp Hồ Chí Minh,38.999.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-11-tp-ho-chi-minh/132035069.htm,Quốc
-98,Honda,Vario,2022,16000,8.5,chưa thay,Tp Hồ Chí Minh,39.999.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-11-tp-ho-chi-minh/132035069.htm,Quốc
-99,Honda,Vario,2017,123,9.5,chưa thay,Tp Hồ Chí Minh,52.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-11-tp-ho-chi-minh/132035029.htm,Quốc
-100,Honda,Vario,2020,10,10,chưa thay,Tp Hồ Chí Minh,36.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-tan-phu-tp-ho-chi-minh/132006957.htm,Quốc
-101,Honda,Vario,2021,18000,8,chưa thay,Tp Hồ Chí Minh,36.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-10-tp-ho-chi-minh/131801050.htm,Tuấn
-102,Honda,Vario,2019,58000,7.5,chưa thay,Tp Hồ Chí Minh,40.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-6-tp-ho-chi-minh/132185596.htm,Tuấn
-103,Honda,Vario,2022,5000,8.5,chưa thay,Tp Hồ Chí Minh,38.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-go-vap-tp-ho-chi-minh/132214997.htm#px=SR-similarad-[PO-4][PL-bottom],Tuấn
-104,Honda,Vario,2022,18000,8,chưa thay,Tp Hồ Chí Minh,40.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-12-tp-ho-chi-minh/132162148.htm#px=SR-similarad-[PO-1][PL-bottom],Tuấn
-105,Honda,Vario,2024,13000,8,chưa thay,Tp Hồ Chí Minh,36.600.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-11-tp-ho-chi-minh/132202506.htm,Tuấn
-106,Honda,MSX,2019,16312,8,chưa thay,Tp Hồ Chí Minh,29.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-tan-phu-tp-ho-chi-minh/132227828.htm,Tuấn
-107,Honda,MSX,2020,8000,8.5,chưa thay,Tp Hồ Chí Minh,24.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-11-tp-ho-chi-minh/131886426.htm,Tuấn
-108,Honda,MSX,2018,24000,8.5,chưa thay,Tp Hồ Chí Minh,28.800.000.00,https://xe.chotot.com/mua-ban-xe-may-thanh-pho-thu-duc-tp-ho-chi-minh/132131352.htm,Tuấn
-109,Honda,MSX,2019,19543,8,chưa thay,Tp Hồ Chí Minh,30.800.000.00,https://xe.chotot.com/mua-ban-xe-may-thanh-pho-thu-duc-tp-ho-chi-minh/131107291.htm,Tuấn
-110,Honda,MSX,2019,20,10,chưa thay,Tp Hồ Chí Minh,28.800.000.00,https://xe.chotot.com/mua-ban-xe-may-thanh-pho-thu-duc-tp-ho-chi-minh/131108560.htm,Tuấn
-111,Honda,MSX,2019,18000,8,chưa thay,Tp Hồ Chí Minh,29.500.000.00,https://xe.chotot.com/mua-ban-xe-may-thanh-pho-thu-duc-tp-ho-chi-minh/132207079.htm,Tuấn
-112,Honda,MSX,2015,19000,7,chưa thay,Tp Hồ Chí Minh,27.800.000.00,https://xe.chotot.com/mua-ban-xe-may-thanh-pho-thu-duc-tp-ho-chi-minh/131555684.htm,Tuấn
-113,Honda,MSX,2014,20000,7.5,chưa thay,Tp Hồ Chí Minh,19.800.000.00,https://xe.chotot.com/mua-ban-xe-may-thanh-pho-thu-duc-tp-ho-chi-minh/132200618.htm,Tuấn
-114,Honda,MSX,2020,10000,8,chưa thay,Tp Hồ Chí Minh,35.800.000.00,https://xe.chotot.com/mua-ban-xe-may-thanh-pho-thu-duc-tp-ho-chi-minh/131555542.htm,Tuấn
-115,Honda,MSX,2020,19000,8,chưa thay,Tp Hồ Chí Minh,34.888.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-binh-thanh-tp-ho-chi-minh/131700495.htm,Tuấn
-116,Honda,MSX,2021,16000,8,chưa thay,Tp Hồ Chí Minh,34.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-binh-thanh-tp-ho-chi-minh/131340240.htm,Tuấn
-117,Honda,MSX,2014,20000,7,chưa thay,Tp Hồ Chí Minh,19.800.000.00,https://xe.chotot.com/mua-ban-xe-may-thanh-pho-thu-duc-tp-ho-chi-minh/132200618.htm,Tuấn
-118,Honda,MSX,2019,20000,8,chưa thay,Tp Hồ Chí Minh,29.800.000.00,https://xe.chotot.com/mua-ban-xe-may-thanh-pho-thu-duc-tp-ho-chi-minh/131270744.htm,Tuấn
-119,Honda,MSX,2020,28000,8,chưa thay,Tp Hồ Chí Minh,23.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-binh-thanh-tp-ho-chi-minh/131980956.htm,Tuấn
-120,Honda,MSX,2016,15000,7.5,chưa thay,Tp Hồ Chí Minh,19.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-binh-tan-tp-ho-chi-minh/131474474.htm,Tuấn
-121,Honda,MSX,2019,9000,7.5,chưa thay,Tp Hồ Chí Minh,39.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-binh-tan-tp-ho-chi-minh/129305420.htm,Tuấn
-122,Honda,MSX,2021,30,9.5,chưa thay,Tp Hồ Chí Minh,18.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-7-tp-ho-chi-minh/132228036.htm,Tuấn
-123,Honda,MSX,2016,10,9.5,chưa thay,Tp Hồ Chí Minh,19.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-tan-phu-tp-ho-chi-minh/131607079.htm,Tuấn
-124,Honda,MSX,2021,16000,8.5,chưa thay,Tp Hồ Chí Minh,28.800.000.00,https://xe.chotot.com/mua-ban-xe-may-thanh-pho-thu-duc-tp-ho-chi-minh/131874725.htm,Tuấn
-125,Honda,MSX,2016,5,9.5,chưa thay,Tp Hồ Chí Minh,21.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-tan-phu-tp-ho-chi-minh/129721860.htm,Tuấn
-126,Suzuki,Satria,1999,12300,9,chưa thay,Tp Hồ Chí Minh,220.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-tan-phu-tp-ho-chi-minh/132228066.htm,Tuấn
-127,Suzuki,Satria,2021,11000,8.5,chưa thay,Tp Hồ Chí Minh,23.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-binh-thanh-tp-ho-chi-minh/132206062.htm,Tuấn
-128,Suzuki,Satria,2021,10000,9,chưa thay,Tp Hồ Chí Minh,27.999.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-11-tp-ho-chi-minh/131867554.htm,Tuấn
-129,Suzuki,Satria,2018,90000,7.5,chưa thay,Tp Hồ Chí Minh,14.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-binh-tan-tp-ho-chi-minh/132143275.htm,Tuấn
-130,Suzuki,Satria,2000,16000,9,chưa thay,Tp Hồ Chí Minh,63.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-go-vap-tp-ho-chi-minh/132209534.htm,Tuấn
-131,Suzuki,Satria,2022,37,10,chưa thay,Tp Hồ Chí Minh,18.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-binh-tan-tp-ho-chi-minh/131614073.htm,Hoàng
-132,Suzuki,Satria,2020,18000,8,chưa thay,Tp Hồ Chí Minh,25.999.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-11-tp-ho-chi-minh/131886100.htm,Hoàng
-133,Suzuki,Satria,2018,35600,6.5,chưa thay,Tp Hồ Chí Minh,22.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-7-tp-ho-chi-minh/132155139.htm,Hoàng
-134,Suzuki,Satria,2019,25000,8.5,chưa thay,Tp Hồ Chí Minh,17.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-go-vap-tp-ho-chi-minh/131611316.htm,Hoàng
-135,Suzuki,Satria,2019,16000,8.5,chưa thay,Tp Hồ Chí Minh,22.000.000.00,https://xe.chotot.com/mua-ban-xe-may-thanh-pho-thu-duc-tp-ho-chi-minh/132127026.htm,Hoàng
-136,Suzuki,Satria,2020,24000,7,chưa thay,Tp Hồ Chí Minh,17.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-8-tp-ho-chi-minh/132224054.htm,Hoàng
-137,Suzuki,Satria,2021,20,8,chưa thay,Tp Hồ Chí Minh,22.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-go-vap-tp-ho-chi-minh/131499145.htm,Hoàng
-138,Suzuki,Satria,2020,30000,8,chưa thay,Tp Hồ Chí Minh,17.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-binh-tan-tp-ho-chi-minh/132108918.htm,Hoàng
-139,Suzuki,Satria,2019,7899,9,chưa thay,Tp Hồ Chí Minh,10.500.000.00,https://xe.chotot.com/mua-ban-xe-may-huyen-hoc-mon-tp-ho-chi-minh/132086295.htm,Hoàng
-140,Suzuki,Satria,2019,16000,9,chưa thay,Tp Hồ Chí Minh,19.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-go-vap-tp-ho-chi-minh/131487046.htm,Hoàng
-141,Suzuki,Satria,2019,1,9.5,chưa thay,Tp Hồ Chí Minh,23.500.000.00,https://xe.chotot.com/mua-ban-xe-may-thanh-pho-thu-duc-tp-ho-chi-minh/131591899.htm,Hoàng
-142,Suzuki,Satria,2019,35000,7,chưa thay,Tp Hồ Chí Minh,22.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-binh-thanh-tp-ho-chi-minh/132138607.htm,Hoàng
-143,Suzuki,Satria,2022,22000,7.5,chưa thay,Tp Hồ Chí Minh,16.800.000.00,https://xe.chotot.com/mua-ban-xe-may-thanh-pho-thu-duc-tp-ho-chi-minh/131842999.htm,Hoàng
-144,Suzuki,Satria,2019,25000,6.5,chưa thay,Tp Hồ Chí Minh,17.800.000.00,https://xe.chotot.com/mua-ban-xe-may-thanh-pho-thu-duc-tp-ho-chi-minh/131706679.htm,Hoàng
-145,Suzuki,Satria,2000,1,10,chưa thay,Tp Hồ Chí Minh,200.000.000.00,https://xe.chotot.com/mua-ban-xe-may-thanh-pho-thu-duc-tp-ho-chi-minh/131816163.htm,Hoàng
-146,Suzuki,Satria,2019,43000,8,chưa thay,Tp Hồ Chí Minh,14.300.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-binh-tan-tp-ho-chi-minh/132155014.htm,Hoàng
-147,Honda,Sonic,2022,15000,7.5,chưa thay,Tp Hồ Chí Minh,28.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-8-tp-ho-chi-minh/132216707.htm,Hoàng
-148,Honda,Sonic,2019,16000,7.5,chưa thay,Tp Hồ Chí Minh,25.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-8-tp-ho-chi-minh/131453648.htm#px=SR-similarad-[PO-2][PL-bottom],Hoàng
-149,Honda,Sonic,2022,6000,9,chưa thay,Tp Hồ Chí Minh,30.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-8-tp-ho-chi-minh/131685113.htm#px=SR-similarad-[PO-4][PL-bottom],Hoàng
-150,Honda,Sonic,2020,4500,9,chưa thay,Tp Hồ Chí Minh,29.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-8-tp-ho-chi-minh/132052547.htm#px=SR-similarad-[PO-7][PL-bottom],Hoàng
-151,Honda,Sonic,2019,11,8.5,chưa thay,Tp Hồ Chí Minh,27.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-8-tp-ho-chi-minh/132141820.htm#px=SR-similarad-[PO-8][PL-bottom],Hoàng
-152,Honda,Sonic,2019,18000,7.5,chưa thay,Tp Hồ Chí Minh,25.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-8-tp-ho-chi-minh/131215250.htm#px=SR-similarad-[PO-9][PL-bottom],Hoàng
-153,Honda,Sonic,2020,4500,8.5,chưa thay,Tp Hồ Chí Minh,29.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-8-tp-ho-chi-minh/132052547.htm,Hoàng
-154,Honda,Sonic,2022,35000,7.5,chưa thay,Tp Hồ Chí Minh,20.500.000.00,https://xe.chotot.com/mua-ban-xe-may-huyen-hoc-mon-tp-ho-chi-minh/131966915.htm,Hoàng
-155,Honda,Sonic,2020,8600,8,chưa thay,Tp Hồ Chí Minh,20.900.000.00,https://xe.chotot.com/mua-ban-xe-may-thanh-pho-thu-duc-tp-ho-chi-minh/131321606.htm,Hoàng
-156,Honda,Sonic,2021,30000,7.5,chưa thay,Tp Hồ Chí Minh,19.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-go-vap-tp-ho-chi-minh/131797150.htm,Hoàng
-157,Honda,Sonic,2021,20000,9,chưa thay,Tp Hồ Chí Minh,22.999.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-11-tp-ho-chi-minh/131543061.htm,Hoàng
-158,Honda,Sonic,2021,10,9.5,chưa thay,Tp Hồ Chí Minh,22.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-tan-phu-tp-ho-chi-minh/131945423.htm,Hoàng
-159,Honda,Sonic,2022,2000,9,chưa thay,Tp Hồ Chí Minh,36.500.000.00,https://xe.chotot.com/mua-ban-xe-may-thanh-pho-thu-duc-tp-ho-chi-minh/131818193.htm,Hoàng
-160,Honda,Sonic,2021,10,9.5,chưa thay,Tp Hồ Chí Minh,19.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-tan-phu-tp-ho-chi-minh/131924804.htm,Hoàng
-161,Honda,Sonic,2021,16000,8,chưa thay,Tp Hồ Chí Minh,26.800.000.00,https://xe.chotot.com/mua-ban-xe-may-huyen-hoc-mon-tp-ho-chi-minh/131690157.htm,Hoàng
-162,Honda,Sonic,2020,10,9,chưa thay,Tp Hồ Chí Minh,22.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-tan-phu-tp-ho-chi-minh/132149435.htm,Hoàng
-163,Honda,Sonic,2021,12000,8,chưa thay,Tp Hồ Chí Minh,37.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-4-tp-ho-chi-minh/131386669.htm,Hoàng
-164,Honda,Sonic,2024,9000,9.5,chưa thay,Tp Hồ Chí Minh,33.999.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-11-tp-ho-chi-minh/131860477.htm,Hoàng
-165,Honda,Sonic,2022,9,9,chưa thay,Tp Hồ Chí Minh,22.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-tan-phu-tp-ho-chi-minh/129283526.htm,Khôi
-166,Honda,Sonic,2023,15000,9.5,chưa thay,Tp Hồ Chí Minh,28.999.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-11-tp-ho-chi-minh/131837437.htm,Khôi
-167,Honda,Sonic,2020,20000,8.5,chưa thay,Tp Hồ Chí Minh,21.999.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-11-tp-ho-chi-minh/131445689.htm,Khôi
-168,Honda,Sonic,2018,53760,8,chưa thay,Tp Hồ Chí Minh,13.300.000.00,https://xe.chotot.com/mua-ban-xe-may-huyen-hoc-mon-tp-ho-chi-minh/131962652.htm,Khôi
-169,Honda,Sonic,2020,1,10,chưa thay,Tp Hồ Chí Minh,26.500.000.00,https://xe.chotot.com/mua-ban-xe-may-thanh-pho-thu-duc-tp-ho-chi-minh/131063477.htm,Khôi
-170,Honda,Sonic,2019,26000,8,chưa thay,Tp Hồ Chí Minh,18.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-12-tp-ho-chi-minh/131247045.htm,Khôi
-171,Honda,Sonic,2020,32139,8.5,chưa thay,Tp Hồ Chí Minh,23.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-3-tp-ho-chi-minh/132015700.htm,Khôi
-172,Honda,Sonic,2020,1,10,chưa thay,Tp Hồ Chí Minh,23.500.000.00,https://xe.chotot.com/mua-ban-xe-may-thanh-pho-thu-duc-tp-ho-chi-minh/131632074.htm,Khôi
-173,Honda,Sonic,2018,36979,7.5,chưa thay,Tp Hồ Chí Minh,17.500.000.00,https://xe.chotot.com/mua-ban-xe-may-thanh-pho-thu-duc-tp-ho-chi-minh/132103640.htm,Khôi
-174,Honda,Sonic,2020,22000,7,chưa thay,Tp Hồ Chí Minh,17.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-binh-tan-tp-ho-chi-minh/132193471.htm,Khôi
-175,Honda,Sonic,2019,5500,9,chưa thay,Tp Hồ Chí Minh,19.500.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-7-tp-ho-chi-minh/132177148.htm,Khôi
-176,Kawasaki,W175,2019,19000,8,chưa thay,Tp Hồ Chí Minh,39.500.000.00,https://xe.chotot.com/mua-ban-xe-may-thanh-pho-thu-duc-tp-ho-chi-minh/132212997.htm,Vĩ
-177,Kawasaki,Ninja,2017,1234,7,chưa thay,Tp Hồ Chí Minh,48.800.000.00,https://xe.chotot.com/mua-ban-xe-may-huyen-hoc-mon-tp-ho-chi-minh/132241881.htm,Vĩ
-178,Kawasaki,W175,2018,37000,6,chưa thay,Tp Hồ Chí Minh,33.500.000.00,https://xe.chotot.com/mua-ban-xe-may-huyen-binh-chanh-tp-ho-chi-minh/130669723.htm,Vĩ
-179,Kawasaki,Ninja,2017,123,"8,5",chưa thay,Tp Hồ Chí Minh,56.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-tan-phu-tp-ho-chi-minh/131657383.htm,Vĩ
-180,Kawasaki,Boss,2008,13000,7,chưa thay,Tp Hồ Chí Minh,36.000.000.00,https://xe.chotot.com/mua-ban-xe-may-huyen-binh-chanh-tp-ho-chi-minh/130775578.htm,Vĩ
-181,Kawasaki,W175,2024,1600,8,chưa thay,Tp Hồ Chí Minh,59.800.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-6-tp-ho-chi-minh/132161259.htm,Vĩ
-182,Kawasaki,Z400,2022,15000,"7,5",chưa thay,Tp Hồ Chí Minh,89.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-binh-thanh-tp-ho-chi-minh/132053627.htm,Vĩ
-183,Kawasaki,Z1000,2010,10000,"6,5",đã thay,Tp Hồ Chí Minh,35.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-go-vap-tp-ho-chi-minh/132039985.htm,Vĩ
-184,Kawasaki,Z800,2015,26000,7,chưa thay,Tp Hồ Chí Minh,108.800.000.00,https://xe.chotot.com/mua-ban-xe-may-huyen-binh-chanh-tp-ho-chi-minh/132027366.htm,Vĩ
-185,Kawasaki,Ninja,2016,20000,7,đã thay,Hà Nội ,55.500.000.00,https://xe.chotot.com/mua-ban-xe-may-huyen-hoai-duc-ha-noi/122382289.htm,Vĩ
-186,Kawasaki,Ninja,2018,15000,"7,5",đã thay,Hà Nội ,39.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-cau-giay-ha-noi/128667105.htm,Vĩ
-187,Kawasaki,Z800,2018,27000,8,đã thay,Hà Nội ,70.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-cau-giay-ha-noi/126310140.htm,Vĩ
-188,Kawasaki,Z801,2017,20000,"7,5",đã thay,Hà Nội ,78.978.900.00,https://xe.chotot.com/mua-ban-xe-may-quan-cau-giay-ha-noi/126129643.htm,Vĩ
-189,Kawasaki,Ninja,2017,25000,8,đã thay,Hà Nội ,34.567.890.00,https://xe.chotot.com/mua-ban-xe-may-quan-cau-giay-ha-noi/131514173.htm,Vĩ
-190,Kawasaki,Z300,2018,12000,"7,5",đã thay,Hà Nội ,40.000.000.00,https://xe.chotot.com/mua-ban-xe-may-quan-hoang-mai-ha-noi/128145381.htm,Vĩ
-191,Honda,Winner v3,2024,10000,7,chưa thay,Đà Nẵng,"30.800.000,00",Winner v3 2024 abs siêu đẹp nợ xấu trả trc 11 triu - 131619494,Hào
-192,Honda,Future,2026,1000,8,chưa thay,Đà Nẵng,"33.000.000,00",https://xe.chotot.com/mua-ban-xe-may-quan-thanh-khe-da-nang/132236669.htm,Hào
-193,Honda,Future,2022,27000,7,chưa thay,Đà Nẵng,"22.000.000,00","Chợ Tốt - Website Mua Bán, Rao Vặt Trực Tuyến Hàng Đầu Của Người Việt - Chợ Tốt",Hào
-194,Honda,Future,2017,27000,7,chưa thay,Đà Nẵng,"18.500.000,00",Honda Future 125 Đỏ đen - 132211425,Hào
-195,Honda,Future,2021,25000,7,chưa thay,Đà Nẵng,"23.500.000,00","Future led xám biển43, máy rin, áo đẹp. - 131332740",Hào
-196,Honda,Future ,2007,47000,7,chưa thay,Đà Nẵng,"30.000.000,00",Hon Da future neo fi 2008 . Hồ sơ tự quản - 131931229,Hào
-197,Honda,Future,2017,30000,7,chưa thay,Đà Nẵng,"17.000.000,00",Bán xe Honda Future Đỏ đen Thể thao - 132094762,Hào
-198,Honda,Future,2019,28363,6,chưa thay,Đà Nẵng,"21.500.000,00",honda futer 2019 mẫu đèn lét xe rin chất 1 chủ - 130742953,Hào
-199,Honda,Future,2019,15387,7,đã thay,Đà Nẵng,"16.500.000,00",Honda Future LED 2019 Trắng đen - 131831411,Hào
-200,Honda,Future,2017,1191,7,chưa thay,Đà Nẵng,"12.500.000,00",Honda Future 125 FI Xám đen - 131556789,Hào
+STT,Hãng xe,Dòng xe,Năm sản xuất,Số km đã chạy,Tình trạng xe,đã phụ tùng chưa thay,Khu vực bán,Giá bán
+1,Honda,Air Blade,2017,10000,7,chưa thay,Đà Nẵng,19.800.000.00
+2,Honda,Air Blade,2025,2000,"8,5",chưa thay,Hải Phòng,7.500.000.00
+3,Honda,Air Blade,2023,17000,8,chưa thay,Tp Hồ Chí Minh,45.500.000.00
+4,Honda,Air Blade,2023,23000,"7,5",đã thay,Tp Hồ Chí Minh,35.500.000.00
+5,Honda,VISION,2023,8000,6,đã thay,Tp Hồ Chí Minh,29.800.000.00
+6,Honda,VISION,2023,6789,8,đã thay,Tp Hồ Chí Minh,31.800.000.00
+7,Honda,VISION,2023,14769,7,đã thay,Tp Hồ Chí Minh,29.000.000.00
+8,Honda,VISION,2023,12345,"7,5",đã thay,Tp Hồ Chí Minh,31.500.000.00
+9,Honda,VISION,2023,10000,8,đã thay,Hà Nội ,28.000.000.00
+10,Honda,VISION,2023,7000,7,đã thay,Hà Nội ,32.500.000.00
+11,Honda,VISION,2023,2500,7,đã thay,Hà Nội ,12.800.000.00
+12,Honda,VISION,2023,2000,"6,5",đã thay,Hà Nội ,12.500.000.00
+13,Honda,VISION,2023,12000,7,đã thay,Hà Nội ,32.000.000.00
+14,Honda,VISION,2023,8000,8,đã thay,Hà Nội ,18.800.000.00
+15,Honda,VISION,2023,1,"8,5",chưa thay,Hà Nội ,29.000.000.00
+16,Honda,VISION,2023,2000,"8,5",đã thay,Hà Nội ,11.800.000.00
+17,Honda,VISION,2023,9000,6,đã thay,Hà Nội ,30.000.000.00
+18,Honda,VISION,2023,8624,"6,5",đã thay,Hà Nội ,24.200.000.00
+19,Honda,VISION,2023,5000,7,đã thay,Hà Nội ,15.800.000.00
+20,Honda,VISION,2023,11000,"8,5",đã thay,Hà Nội ,26.000.000.00
+21,Honda,Wave Alpha,2022,43000,7,chưa thay,Tp Hồ Chí Minh,16.500.000.00
+22,Kymco,Many Fi odo 19k,2013,19000,6,chưa thay,Tp Hồ Chí Minh,7.500.000.00
+23,Kymco,Candy Hi 50cc,2015,20000,"5,5",chưa thay,Tp Hồ Chí Minh,6.500.000.00
+24,Kymco,Candy Hi 50cc,2022,4545,8,chưa thay,Tp Hồ Chí Minh,15.900.000.00
+25,Kymco,Kpipe 50cc,2023,10000,7,chưa thay,Tp Hồ Chí Minh,9.800.000.00
+26,Kymco,Kpipe 50cc,2019,1257,8,chưa thay,Tp Hồ Chí Minh,10.800.000.00
+27,Kymco,Kpipe 50 up 100,2026,1000,9,chưa thay,Tp Hồ Chí Minh,8.800.000.00
+28,Kymco,Kpipe 50cc ,2018,10000,6,chưa thay,Tp Hồ Chí Minh,6.900.000.00
+29,Kymco,Kpipe 50cc ,2025,5000,8,chưa thay,Tp Hồ Chí Minh,11.500.000.00
+30,Kymco,Kpipe 50cc ,2017,30500,6,đã thay,Tp Hồ Chí Minh,8.500.000.00
+31,Kymco,Kpipe 50cc ,2022,14000,7,chưa thay,Tp Hồ Chí Minh,9.300.000.00
+32,Kymco,Kpipe 50cc ,2022,10000,8,chưa thay,Tp Hồ Chí Minh,11.500.000.00
+33,Kymco,Kpipe 50cc ,2018,33979,5,chưa thay,Tp Hồ Chí Minh,4.800.000.00
+34,Kymco,Kpipe 50cc ,2024,22000,8,chưa thay,Tp Hồ Chí Minh,13.800.000.00
+35,Kymco,Kpipe 50cc ,2019,9877,"7,5",chưa thay,Tp Hồ Chí Minh,7.800.000.00
+36,Kymco,Kpipe 50cc ,2019,17000,8,chưa thay,Tp Hồ Chí Minh,11.800.000.00
+37,Kymco,Kpipe 50cc ,2018,12776,7,chưa thay,Tp Hồ Chí Minh,8.000.000.00
+38,Kymco,Kpipe 50cc ,2018,100,9,chưa thay,Tp Hồ Chí Minh,9.800.000.00
+39,Kymco,Kpipe 50cc ,2024,6672,8,chưa thay,Tp Hồ Chí Minh,13.000.000.00
+40,Kymco,Kpipe 50cc ,2020,15000,7,chưa thay,Tp Hồ Chí Minh,8.900.000.00
+41,Kymco,Kpipe 50cc ,2018,26000,7,chưa thay,Tp Hồ Chí Minh,8.500.000.00
+42,Kymco,Like 125cc,2010,50000,5,chưa thay,Tp Hồ Chí Minh,6.500.000.00
+43,Kymco,Like 50cc,2017,5483,8,chưa thay,Tp Hồ Chí Minh,12.800.000.00
+44,Kymco,Like 125cc,2010,36439,5,chưa thay,Tp Hồ Chí Minh,6.900.000.00
+45,Kymco,Like 125cc,2016,41788,6,chưa thay,Tp Hồ Chí Minh,8.800.000.00
+46,Honda,VARIO,2023,4000,7,đã thay,Hà Nội,40.500.000.00
+47,Honda,VARIO,2023,11845,8,đã thay,Hà Nội,43.500.000.00
+48,Honda,VARIO,2023,14000,"7,5",đã thay,Hà Nội,41.500.000.00
+49,Honda,Lead,2023,22000,6,đã thay,Hà Nội,31.500.000.00
+50,Honda,Lead,2023,30000,7,đã thay,Hà Nội,33.000.000.00
+51,Honda,Lead,2023,6000,8,đã thay,Hà Nội,34.000.000.00
+52,Honda,Lead,2023,17823,"6,5",đã thay,Hà Nội,37.200.000.00
+53,Honda,Lead,2023,18829,"6,5",đã thay,Đà Nẵng,32.800.000.00
+54,Honda,Lead,2023,13000,7,đã thay,Cần Thơ,39.800.000.00
+55,Honda,Lead,2023,4550,8,đã thay,Cần Thơ,81.000.000.00
+56,Honda,SH,2023,3000,7,đã thay,Hà Nội,66.500.000.00
+57,Honda,SH,2023,5000,7,đã thay,Hà Nội,66.500.000.00
+58,Honda,SH,2023,3000,"7,5",đã thay,Hà Nội,66.000.000.00
+59,Honda,SH,2023,2000,7,đã thay,Hà Nội,112.000.000.00
+60,Honda,SH,2023,2000,8,đã thay,Hà Nội,112.500.000.00
+61,Honda,Cub,2023,7000,7,chưa thay,Tp Hồ Chí Minh,8.700.000.00
+62,Honda,Cub,2023,4000,"7,5",chưa thay,Tp Hồ Chí Minh,11.500.000.00
+63,Honda,Cub,2023,18000,"7,5",đã thay,Tp Hồ Chí Minh,8.900.000.00
+64,Honda,Cub,2023,15000,8,đã thay,Tp Hồ Chí Minh,9.500.000.00
+65,Suzuki,EN150A,2013,87000,6,chưa thay,Tp Hồ Chí Minh,22.000.000.00
+66,Suzuki,Satria F150,2022,53920,7,đã thay,Tp Hồ Chí Minh,19.000.000.00
+67,Suzuki,Satria F150,2020,49120,7,đã thay,Tp Hồ Chí Minh,25.500.000.00
+68,Suzuki,Xipo 120,2016,8754,8,đã thay,Tp Hồ Chí Minh,30.500.000.00
+69,Yamaha,Exciter 150,2017,44000,7,chưa thay,Tp Hồ Chí Minh,18.000.000.00
+70,Yamaha,Exciter 150,2017,25000,7,chưa thay,Tp Hồ Chí Minh,17.000.000.00
+71,Yamaha,Exciter 150,2015,6978,8,chưa thay,Tp Hồ Chí Minh,13.000.000.00
+72,Yamaha,Exciter 150,2018,44000,7,chưa thay,Tp Hồ Chí Minh,11.900.000.00
+73,Yamaha,Exciter 50cc,2024,3673,8,chưa thay,Tp Hồ Chí Minh,6.800.000.00
+74,Yamaha,EXCITER 155 ABS,2024,4000,8,chưa thay,Hà Nội,42.000.000.00
+75,Yamaha,EXCITER 155 ABS,2024,2000,9,đã thay,Hà Nội,45.500.000.00
+76,Yamaha,EXCITER 155 ABS,2024,3167,8.5,đã thay,Tp Hồ Chí Minh,29.800.000.00
+77,Yamaha,Grande,2017,29000,9,chưa thay,Tp Hồ Chí Minh,18.500.000.00
+78,Yamaha,Grande,2015,6666,9.5,chưa thay,Tp Hồ Chí Minh,19.800.000.00
+79,Yamaha,Grande,2015,6595,8.5,chưa thay,Tp Hồ Chí Minh,20.800.000.00
+80,Yamaha,Grande,2017,8686,8.5,chưa thay,Tp Hồ Chí Minh,15.500.000.00
+81,Yamaha,Grande,2016,25000,9,chưa thay,Tp Hồ Chí Minh,16.800.000.00
+82,Yamaha,Grande,2016,34211,9,chưa thay,Tp Hồ Chí Minh,14.800.000.00
+83,Yamaha,Grande,2016,15000,8,chưa thay,Tp Hồ Chí Minh,14.500.000.00
+84,Yamaha,Grande,2019,18000,9.5,chưa thay,Tp Hồ Chí Minh,27.800.000.00
+85,Yamaha,Grande,2018,30,9.5,chưa thay,Tp Hồ Chí Minh,15.500.000.00
+86,Yamaha,Grande,2016,10,9.5,chưa thay,Tp Hồ Chí Minh,17.500.000.00
+87,Yamaha,Grande,2017,18000,8,chưa thay,Tp Hồ Chí Minh,18.300.000.00
+88,Yamaha,Grande,2015,33072,9.5,chưa thay,Tp Hồ Chí Minh,19.500.000.00
+89,Yamaha,Grande,2015,35000,9.5,chưa thay,Tp Hồ Chí Minh,14.000.000.00
+90,Yamaha,Grande,2015,22628,7.5,chưa thay,Tp Hồ Chí Minh,13.900.000.00
+91,Honda,Vario,2024,45000,9,chưa thay,Tp Hồ Chí Minh,48.500.000.00
+92,Honda,Vario,2022,25000,8,chưa thay,Tp Hồ Chí Minh,43.800.000.00
+93,Honda,Vario,2023,59000,9,chưa thay,Tp Hồ Chí Minh,40.500.000.00
+94,Honda,Vario,2023,10,10,chưa thay,Tp Hồ Chí Minh,42.000.000.00
+95,Honda,Vario,2023,10,10,chưa thay,Tp Hồ Chí Minh,38.500.000.00
+96,Honda,Vario,2020,20000,8.5,chưa thay,Tp Hồ Chí Minh,39.800.000.00
+97,Honda,Vario,2022,16000,9,chưa thay,Tp Hồ Chí Minh,38.999.000.00
+98,Honda,Vario,2022,16000,8.5,chưa thay,Tp Hồ Chí Minh,39.999.000.00
+99,Honda,Vario,2017,123,9.5,chưa thay,Tp Hồ Chí Minh,52.800.000.00
+100,Honda,Vario,2020,10,10,chưa thay,Tp Hồ Chí Minh,36.000.000.00
+101,Honda,Vario,2021,18000,8,chưa thay,Tp Hồ Chí Minh,36.000.000.00
+102,Honda,Vario,2019,58000,7.5,chưa thay,Tp Hồ Chí Minh,40.500.000.00
+103,Honda,Vario,2022,5000,8.5,chưa thay,Tp Hồ Chí Minh,38.800.000.00
+104,Honda,Vario,2022,18000,8,chưa thay,Tp Hồ Chí Minh,40.500.000.00
+105,Honda,Vario,2024,13000,8,chưa thay,Tp Hồ Chí Minh,36.600.000.00
+106,Honda,MSX,2019,16312,8,chưa thay,Tp Hồ Chí Minh,29.000.000.00
+107,Honda,MSX,2020,8000,8.5,chưa thay,Tp Hồ Chí Minh,24.800.000.00
+108,Honda,MSX,2018,24000,8.5,chưa thay,Tp Hồ Chí Minh,28.800.000.00
+109,Honda,MSX,2019,19543,8,chưa thay,Tp Hồ Chí Minh,30.800.000.00
+110,Honda,MSX,2019,20,10,chưa thay,Tp Hồ Chí Minh,28.800.000.00
+111,Honda,MSX,2019,18000,8,chưa thay,Tp Hồ Chí Minh,29.500.000.00
+112,Honda,MSX,2015,19000,7,chưa thay,Tp Hồ Chí Minh,27.800.000.00
+113,Honda,MSX,2014,20000,7.5,chưa thay,Tp Hồ Chí Minh,19.800.000.00
+114,Honda,MSX,2020,10000,8,chưa thay,Tp Hồ Chí Minh,35.800.000.00
+115,Honda,MSX,2020,19000,8,chưa thay,Tp Hồ Chí Minh,34.888.000.00
+116,Honda,MSX,2021,16000,8,chưa thay,Tp Hồ Chí Minh,34.500.000.00
+117,Honda,MSX,2014,20000,7,chưa thay,Tp Hồ Chí Minh,19.800.000.00
+118,Honda,MSX,2019,20000,8,chưa thay,Tp Hồ Chí Minh,29.800.000.00
+119,Honda,MSX,2020,28000,8,chưa thay,Tp Hồ Chí Minh,23.000.000.00
+120,Honda,MSX,2016,15000,7.5,chưa thay,Tp Hồ Chí Minh,19.800.000.00
+121,Honda,MSX,2019,9000,7.5,chưa thay,Tp Hồ Chí Minh,39.000.000.00
+122,Honda,MSX,2021,30,9.5,chưa thay,Tp Hồ Chí Minh,18.800.000.00
+123,Honda,MSX,2016,10,9.5,chưa thay,Tp Hồ Chí Minh,19.500.000.00
+124,Honda,MSX,2021,16000,8.5,chưa thay,Tp Hồ Chí Minh,28.800.000.00
+125,Honda,MSX,2016,5,9.5,chưa thay,Tp Hồ Chí Minh,21.000.000.00
+126,Suzuki,Satria,1999,12300,9,chưa thay,Tp Hồ Chí Minh,220.000.000.00
+127,Suzuki,Satria,2021,11000,8.5,chưa thay,Tp Hồ Chí Minh,23.500.000.00
+128,Suzuki,Satria,2021,10000,9,chưa thay,Tp Hồ Chí Minh,27.999.000.00
+129,Suzuki,Satria,2018,90000,7.5,chưa thay,Tp Hồ Chí Minh,14.000.000.00
+130,Suzuki,Satria,2000,16000,9,chưa thay,Tp Hồ Chí Minh,63.000.000.00
+131,Suzuki,Satria,2022,37,10,chưa thay,Tp Hồ Chí Minh,18.000.000.00
+132,Suzuki,Satria,2020,18000,8,chưa thay,Tp Hồ Chí Minh,25.999.000.00
+133,Suzuki,Satria,2018,35600,6.5,chưa thay,Tp Hồ Chí Minh,22.000.000.00
+134,Suzuki,Satria,2019,25000,8.5,chưa thay,Tp Hồ Chí Minh,17.800.000.00
+135,Suzuki,Satria,2019,16000,8.5,chưa thay,Tp Hồ Chí Minh,22.000.000.00
+136,Suzuki,Satria,2020,24000,7,chưa thay,Tp Hồ Chí Minh,17.000.000.00
+137,Suzuki,Satria,2021,20,8,chưa thay,Tp Hồ Chí Minh,22.800.000.00
+138,Suzuki,Satria,2020,30000,8,chưa thay,Tp Hồ Chí Minh,17.000.000.00
+139,Suzuki,Satria,2019,7899,9,chưa thay,Tp Hồ Chí Minh,10.500.000.00
+140,Suzuki,Satria,2019,16000,9,chưa thay,Tp Hồ Chí Minh,19.500.000.00
+141,Suzuki,Satria,2019,1,9.5,chưa thay,Tp Hồ Chí Minh,23.500.000.00
+142,Suzuki,Satria,2019,35000,7,chưa thay,Tp Hồ Chí Minh,22.000.000.00
+143,Suzuki,Satria,2022,22000,7.5,chưa thay,Tp Hồ Chí Minh,16.800.000.00
+144,Suzuki,Satria,2019,25000,6.5,chưa thay,Tp Hồ Chí Minh,17.800.000.00
+145,Suzuki,Satria,2000,1,10,chưa thay,Tp Hồ Chí Minh,200.000.000.00
+146,Suzuki,Satria,2019,43000,8,chưa thay,Tp Hồ Chí Minh,14.300.000.00
+147,Honda,Sonic,2022,15000,7.5,chưa thay,Tp Hồ Chí Minh,28.800.000.00
+148,Honda,Sonic,2019,16000,7.5,chưa thay,Tp Hồ Chí Minh,25.800.000.00
+149,Honda,Sonic,2022,6000,9,chưa thay,Tp Hồ Chí Minh,30.800.000.00
+150,Honda,Sonic,2020,4500,9,chưa thay,Tp Hồ Chí Minh,29.800.000.00
+151,Honda,Sonic,2019,11,8.5,chưa thay,Tp Hồ Chí Minh,27.800.000.00
+152,Honda,Sonic,2019,18000,7.5,chưa thay,Tp Hồ Chí Minh,25.800.000.00
+153,Honda,Sonic,2020,4500,8.5,chưa thay,Tp Hồ Chí Minh,29.800.000.00
+154,Honda,Sonic,2022,35000,7.5,chưa thay,Tp Hồ Chí Minh,20.500.000.00
+155,Honda,Sonic,2020,8600,8,chưa thay,Tp Hồ Chí Minh,20.900.000.00
+156,Honda,Sonic,2021,30000,7.5,chưa thay,Tp Hồ Chí Minh,19.800.000.00
+157,Honda,Sonic,2021,20000,9,chưa thay,Tp Hồ Chí Minh,22.999.000.00
+158,Honda,Sonic,2021,10,9.5,chưa thay,Tp Hồ Chí Minh,22.500.000.00
+159,Honda,Sonic,2022,2000,9,chưa thay,Tp Hồ Chí Minh,36.500.000.00
+160,Honda,Sonic,2021,10,9.5,chưa thay,Tp Hồ Chí Minh,19.500.000.00
+161,Honda,Sonic,2021,16000,8,chưa thay,Tp Hồ Chí Minh,26.800.000.00
+162,Honda,Sonic,2020,10,9,chưa thay,Tp Hồ Chí Minh,22.500.000.00
+163,Honda,Sonic,2021,12000,8,chưa thay,Tp Hồ Chí Minh,37.000.000.00
+164,Honda,Sonic,2024,9000,9.5,chưa thay,Tp Hồ Chí Minh,33.999.000.00
+165,Honda,Sonic,2022,9,9,chưa thay,Tp Hồ Chí Minh,22.800.000.00
+166,Honda,Sonic,2023,15000,9.5,chưa thay,Tp Hồ Chí Minh,28.999.000.00
+167,Honda,Sonic,2020,20000,8.5,chưa thay,Tp Hồ Chí Minh,21.999.000.00
+168,Honda,Sonic,2018,53760,8,chưa thay,Tp Hồ Chí Minh,13.300.000.00
+169,Honda,Sonic,2020,1,10,chưa thay,Tp Hồ Chí Minh,26.500.000.00
+170,Honda,Sonic,2019,26000,8,chưa thay,Tp Hồ Chí Minh,18.800.000.00
+171,Honda,Sonic,2020,32139,8.5,chưa thay,Tp Hồ Chí Minh,23.000.000.00
+172,Honda,Sonic,2020,1,10,chưa thay,Tp Hồ Chí Minh,23.500.000.00
+173,Honda,Sonic,2018,36979,7.5,chưa thay,Tp Hồ Chí Minh,17.500.000.00
+174,Honda,Sonic,2020,22000,7,chưa thay,Tp Hồ Chí Minh,17.500.000.00
+175,Honda,Sonic,2019,5500,9,chưa thay,Tp Hồ Chí Minh,19.500.000.00
+176,Kawasaki,W175,2019,19000,8,chưa thay,Tp Hồ Chí Minh,39.500.000.00
+177,Kawasaki,Ninja,2017,1234,7,chưa thay,Tp Hồ Chí Minh,48.800.000.00
+178,Kawasaki,W175,2018,37000,6,chưa thay,Tp Hồ Chí Minh,33.500.000.00
+179,Kawasaki,Ninja,2017,123,"8,5",chưa thay,Tp Hồ Chí Minh,56.000.000.00
+180,Kawasaki,Boss,2008,13000,7,chưa thay,Tp Hồ Chí Minh,36.000.000.00
+181,Kawasaki,W175,2024,1600,8,chưa thay,Tp Hồ Chí Minh,59.800.000.00
+182,Kawasaki,Z400,2022,15000,"7,5",chưa thay,Tp Hồ Chí Minh,89.000.000.00
+183,Kawasaki,Z1000,2010,10000,"6,5",đã thay,Tp Hồ Chí Minh,35.000.000.00
+184,Kawasaki,Z800,2015,26000,7,chưa thay,Tp Hồ Chí Minh,108.800.000.00
+185,Kawasaki,Ninja,2016,20000,7,đã thay,Hà Nội ,55.500.000.00
+186,Kawasaki,Ninja,2018,15000,"7,5",đã thay,Hà Nội ,39.000.000.00
+187,Kawasaki,Z800,2018,27000,8,đã thay,Hà Nội ,70.000.000.00
+188,Kawasaki,Z801,2017,20000,"7,5",đã thay,Hà Nội ,78.978.900.00
+189,Kawasaki,Ninja,2017,25000,8,đã thay,Hà Nội ,34.567.890.00
+190,Kawasaki,Z300,2018,12000,"7,5",đã thay,Hà Nội ,40.000.000.00
+191,Honda,Winner v3,2024,10000,7,chưa thay,Đà Nẵng,"30.800.000,00"
+192,Honda,Future,2026,1000,8,chưa thay,Đà Nẵng,"33.000.000,00"
+193,Honda,Future,2022,27000,7,chưa thay,Đà Nẵng,"22.000.000,00"
+194,Honda,Future,2017,27000,7,chưa thay,Đà Nẵng,"18.500.000,00"
+195,Honda,Future,2021,25000,7,chưa thay,Đà Nẵng,"23.500.000,00"
+196,Honda,Future ,2007,47000,7,chưa thay,Đà Nẵng,"30.000.000,00"
+197,Honda,Future,2017,30000,7,chưa thay,Đà Nẵng,"17.000.000,00"
+198,Honda,Future,2019,28363,6,chưa thay,Đà Nẵng,"21.500.000,00"
+199,Honda,Future,2019,15387,7,đã thay,Đà Nẵng,"16.500.000,00"
+200,Honda,Future,2017,1191,7,chưa thay,Đà Nẵng,"12.500.000,00"
