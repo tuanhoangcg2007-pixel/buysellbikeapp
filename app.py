@@ -93,16 +93,16 @@ if df is not None:
         if os.path.exists("image_550a7b.png"):
             st.image("image_550a7b.png", use_container_width=True)
         else:
-            st.title("🏍️ MOTO AI")
+            st.title("🏍️ BUÔN BÁN XE MÁY")
         st.markdown("---")
         st.info("**Hướng dẫn:** Chọn thông số xe ở bảng bên phải để nhận định giá chính xác từ AI.")
         st.write(f"📊 **Dữ liệu:** {len(df)} xe")
         st.write(f"🎯 **Độ chính xác:** {r2*100:.1f}%")
 
-    st.title("🏍️ AI Motorbike Intelligence System")
-    st.markdown("Hệ thống phân tích giá xe máy thông minh dựa trên dữ liệu thị trường thực tế.")
+    st.title("🏍️ ETUANBANXE-thu mua xe cũ giá cao")
+    st.markdown("Hệ thống cửa hàng buôn bán xe cũ uy tín chất lượng")
 
-    tab1, tab2, tab3 = st.tabs(["🎯 Định giá xe AI", "📊 Insight Thị trường", "📂 Dữ liệu gốc"])
+    tab1, tab2, tab3 = st.tabs(["🎯 Định giá xe ", "📊 Insight Thị trường", "📂 Dữ liệu gốc"])
 
     with tab1:
         left_col, right_col = st.columns([1, 1], gap="large")
