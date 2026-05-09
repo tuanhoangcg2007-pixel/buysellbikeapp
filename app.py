@@ -99,8 +99,8 @@ if df is not None:
         st.write(f"📊 **Dữ liệu:** 201 xe")
         st.write(f"🎯 **Độ chính xác:** {r2*100:.1f}%")
 
-    st.title("🏍️ ETUANBANXE-thu mua xe cũ giá cao")
-    st.markdown("Hệ thống cửa hàng buôn bán xe cũ uy tín chất lượng")
+    st.title("🏍️ HKTshop-thu mua xe cũ giá cao")
+    st.markdown("Hệ thống cửa hàng buôn bán xe cũ uy tín-chất lượng")
 
     tab1, tab2, tab3 = st.tabs(["🎯 Định giá xe ", "📊 Insight Thị trường", "📂 Dữ liệu gốc"])
 
