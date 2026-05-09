@@ -11,12 +11,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score, mean_absolute_error
-
-# ==========================================
-# 1. CẤU HÌNH TRANG & GIAO DIỆN (UI/UX)
-# ==========================================
 st.set_page_config(page_title="Moto Price AI", page_icon="🏍️", layout="wide")
-
 st.markdown("""
     <style>
     .main { background-color: #f0f2f6; }
@@ -36,10 +31,6 @@ st.markdown("""
     h3 { color: #424242; }
     </style>
     """, unsafe_allow_html=True)
-
-# ==========================================
-# 2. HÀM XỬ LÝ LOGIC (ĐÃ VÁ LỖI)
-# ==========================================
 @st.cache_data
 def load_and_preprocess():
     file_path = "motorbike_data.csv"
@@ -47,8 +38,6 @@ def load_and_preprocess():
     df = pd.read_csv(file_path)
     df.columns = df.columns.str.strip()
     current_year = datetime.now().year
-
-    # BẢN VÁ 1: Xử lý giá tiền an toàn tuyệt đối
     def clean_price(val):
         if pd.isna(val): return np.nan
         try:
@@ -63,23 +52,19 @@ def load_and_preprocess():
             return np.nan
 
     df['Giá bán'] = df['Giá bán'].apply(clean_price)
-    
-    # BẢN VÁ 2: Chuẩn hóa lại text, loại bỏ khoảng trắng thừa
+
     for col in ['Hãng xe', 'Dòng xe', 'Khu vực bán']:
         df[col] = df[col].astype(str).str.strip()
 
     df['Tình trạng xe'] = df['Tình trạng xe'].astype(str).str.replace(',', '.').astype(float)
     
-    # BẢN VÁ 3: Ánh xạ phụ tùng (Tránh lỗi khoảng trắng/dấu ngắt dòng trong dữ liệu)
     df['đã phụ tùng chưa thay'] = df['đã phụ tùng chưa thay'].astype(str).str.strip()
     df['Phụ tùng'] = df['đã phụ tùng chưa thay'].apply(lambda x: 1 if 'đã thay' in x.lower() else 0)
     
-    # BẢN VÁ 4: Đảm bảo tuổi xe không bị âm (max là 0)
     df['Tuổi xe'] = df['Năm sản xuất'].apply(lambda x: max(0, current_year - x))
     
     df = df.dropna(subset=['Giá bán', 'Hãng xe', 'Dòng xe'])
-    
-    # Loại bỏ Outliers
+
     Q1, Q3 = df['Giá bán'].quantile(0.25), df['Giá bán'].quantile(0.75)
     IQR = Q3 - Q1
     df = df[(df['Giá bán'] >= Q1 - 1.5 * IQR) & (df['Giá bán'] <= Q3 + 1.5 * IQR)]
@@ -98,7 +83,6 @@ def train_model(df):
     y_pred = pipeline.predict(X)
     return pipeline, r2_score(y, y_pred), mean_absolute_error(y, y_pred)
 
-# --- THỰC THI ---
 df = load_and_preprocess()
 current_year = datetime.now().year
 
