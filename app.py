@@ -17,49 +17,28 @@ from sklearn.metrics import r2_score, mean_absolute_error
 # ==========================================
 st.set_page_config(page_title="Moto Price AI", page_icon="🏍️", layout="wide")
 
-# CSS để làm giao diện đẹp hơn
 st.markdown("""
     <style>
-    /* Tổng thể */
     .main { background-color: #f0f2f6; }
-    
-    /* Tùy chỉnh các khối Metric */
     [data-testid="stMetricValue"] { font-size: 28px; color: #FF4B4B; font-weight: bold; }
-    
-    /* Tạo khung kiểu Card */
     .st-emotion-cache-1r6slb0, .st-emotion-cache-12w0qpk {
-        background-color: white;
-        padding: 20px;
-        border-radius: 15px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        margin-bottom: 20px;
+        background-color: white; padding: 20px; border-radius: 15px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin-bottom: 20px;
     }
-
-    /* Nút bấm nổi bật */
     div.stButton > button:first-child {
-        background-color: #FF4B4B;
-        color: white;
-        border-radius: 10px;
-        border: none;
-        height: 50px;
-        font-size: 18px;
-        font-weight: bold;
-        transition: 0.3s;
+        background-color: #FF4B4B; color: white; border-radius: 10px;
+        border: none; height: 50px; font-size: 18px; font-weight: bold; transition: 0.3s;
     }
     div.stButton > button:hover {
-        background-color: #D32F2F;
-        box-shadow: 0 4px 15px rgba(255, 75, 75, 0.4);
-        transform: scale(1.02);
+        background-color: #D32F2F; box-shadow: 0 4px 15px rgba(255, 75, 75, 0.4); transform: scale(1.02);
     }
-    
-    /* Header đẹp hơn */
     h1 { color: #1E1E1E; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
     h3 { color: #424242; }
     </style>
     """, unsafe_allow_html=True)
 
 # ==========================================
-# 2. HÀM XỬ LÝ LOGIC (GIỮ NGUYÊN Ý NGHĨA)
+# 2. HÀM XỬ LÝ LOGIC (ĐÃ VÁ LỖI)
 # ==========================================
 @st.cache_data
 def load_and_preprocess():
@@ -69,17 +48,35 @@ def load_and_preprocess():
     df.columns = df.columns.str.strip()
     current_year = datetime.now().year
 
+    # BẢN VÁ 1: Xử lý giá tiền an toàn tuyệt đối
     def clean_price(val):
+        if pd.isna(val): return np.nan
         try:
-            s = str(val).replace('.', '').replace(',', '').strip()
-            if len(s) > 8: return float(s) / 100
+            s = str(val).strip()
+            # Cắt bỏ hai số 0 ở phần thập phân (vd: 19.800.000.00 hoặc 30.800.000,00)
+            if s.endswith('.00') or s.endswith(',00'):
+                s = s[:-3]
+            # Loại bỏ hoàn toàn dấu chấm và phẩy còn sót lại
+            s = s.replace('.', '').replace(',', '')
             return float(s)
-        except: return np.nan
+        except: 
+            return np.nan
 
     df['Giá bán'] = df['Giá bán'].apply(clean_price)
+    
+    # BẢN VÁ 2: Chuẩn hóa lại text, loại bỏ khoảng trắng thừa
+    for col in ['Hãng xe', 'Dòng xe', 'Khu vực bán']:
+        df[col] = df[col].astype(str).str.strip()
+
     df['Tình trạng xe'] = df['Tình trạng xe'].astype(str).str.replace(',', '.').astype(float)
-    df['Phụ tùng'] = df['đã phụ tùng chưa thay'].map({'đã thay': 1, 'chưa thay': 0}).fillna(0)
-    df['Tuổi xe'] = current_year - df['Năm sản xuất']
+    
+    # BẢN VÁ 3: Ánh xạ phụ tùng (Tránh lỗi khoảng trắng/dấu ngắt dòng trong dữ liệu)
+    df['đã phụ tùng chưa thay'] = df['đã phụ tùng chưa thay'].astype(str).str.strip()
+    df['Phụ tùng'] = df['đã phụ tùng chưa thay'].apply(lambda x: 1 if 'đã thay' in x.lower() else 0)
+    
+    # BẢN VÁ 4: Đảm bảo tuổi xe không bị âm (max là 0)
+    df['Tuổi xe'] = df['Năm sản xuất'].apply(lambda x: max(0, current_year - x))
+    
     df = df.dropna(subset=['Giá bán', 'Hãng xe', 'Dòng xe'])
     
     # Loại bỏ Outliers
@@ -108,33 +105,27 @@ current_year = datetime.now().year
 if df is not None:
     model_pl, r2, mae = train_model(df)
     
-    # SIDEBAR - NƠI ĐỂ LOGO CHIẾC MOTO
     with st.sidebar:
-        # Hiển thị logo người dùng cung cấp
         if os.path.exists("image_550a7b.png"):
             st.image("image_550a7b.png", use_container_width=True)
         else:
             st.title("🏍️ MOTO AI")
-        
         st.markdown("---")
         st.info("**Hướng dẫn:** Chọn thông số xe ở bảng bên phải để nhận định giá chính xác từ AI.")
         st.write(f"📊 **Dữ liệu:** {len(df)} xe")
         st.write(f"🎯 **Độ chính xác:** {r2*100:.1f}%")
 
-    # MAIN CONTENT
     st.title("🏍️ AI Motorbike Intelligence System")
     st.markdown("Hệ thống phân tích giá xe máy thông minh dựa trên dữ liệu thị trường thực tế.")
 
     tab1, tab2, tab3 = st.tabs(["🎯 Định giá xe AI", "📊 Insight Thị trường", "📂 Dữ liệu gốc"])
 
     with tab1:
-        # Chia bố cục chính
         left_col, right_col = st.columns([1, 1], gap="large")
         
         with left_col:
             st.subheader("📝 Thông tin chi tiết")
             with st.container():
-                # Logic chọn xe thông minh (Hãng -> Dòng)
                 list_hang = sorted(df["Hãng xe"].unique())
                 brand = st.selectbox("Hãng xe", list_hang)
                 
@@ -142,7 +133,7 @@ if df is not None:
                 model_bike = st.selectbox("Dòng xe", list_dong)
                 
                 c1, c2 = st.columns(2)
-                year = c1.number_input("Năm sản xuất", 2000, current_year, current_year-2)
+                year = c1.number_input("Năm sản xuất", 1990, 2030, current_year-2)
                 km = c2.number_input("Số km đã đi", 0, 500000, 10000)
                 
                 cond = st.slider("Tình trạng ngoại hình (1-10)", 1.0, 10.0, 8.5)
@@ -156,14 +147,14 @@ if df is not None:
             if predict_btn:
                 with st.spinner("Đang tính toán giá trị tối ưu..."):
                     time.sleep(0.6)
+                    # Gói dữ liệu để predict
                     input_data = pd.DataFrame([{
-                        "Hãng xe": brand, "Dòng xe": model_bike, "Tuổi xe": current_year - year,
+                        "Hãng xe": brand, "Dòng xe": model_bike, "Tuổi xe": max(0, current_year - year),
                         "Số km đã chạy": km, "Tình trạng xe": cond, 
                         "Phụ tùng": 1 if part == "đã thay" else 0, "Khu vực bán": area
                     }])
                     res = model_pl.predict(input_data)[0]
                     
-                    # Hiển thị giá trong khung Card
                     st.balloons()
                     st.markdown(f"""
                         <div style="background-color: #1E1E1E; padding: 30px; border-radius: 15px; text-align: center;">
@@ -172,7 +163,6 @@ if df is not None:
                         </div>
                     """, unsafe_allow_html=True)
                     
-                    # So sánh nhanh
                     avg_price = df[df['Dòng xe'] == model_bike]['Giá bán'].mean()
                     st.write("")
                     st.metric(f"So với trung bình dòng {model_bike}", f"{res:,.0f}đ", f"{res-avg_price:,.0f}đ")
