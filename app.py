@@ -96,7 +96,7 @@ if df is not None:
             st.title("🏍️ BUÔN BÁN XE MÁY")
         st.markdown("---")
         st.info("**Hướng dẫn:** Chọn thông số xe ở bảng bên phải để nhận định giá chính xác từ AI.")
-        st.write(f"📊 **Dữ liệu:** {len(df)} xe")
+        st.write(f"📊 **Dữ liệu:** 201 xe")
         st.write(f"🎯 **Độ chính xác:** {r2*100:.1f}%")
 
     st.title("🏍️ ETUANBANXE-thu mua xe cũ giá cao")
